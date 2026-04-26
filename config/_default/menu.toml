@@ -13,7 +13,7 @@
     url        = "https://github.com/fengfeng163"
 
     [social.params]
-        icon = "brand-github"
+        icon = "github"
 
 [[social]]
     identifier = "facebook"
@@ -21,7 +21,7 @@
     url        = "https://www.facebook.com/mei.mark.7"
 
     [social.params]
-        icon = "brand-twitter"
+        icon = "facebook"
 
 [[social]]
     identifier = "csdn"
@@ -29,4 +29,12 @@
     url        = "https://blog.csdn.net/sitebus"
 
     [social.params]
-        icon = "messages"
+        icon = "brand-csdn"
+
+[[social]]
+    identifier = "csdn-index"
+    name       = "csdn-index"
+    url        = "https://blog.csdn.net/sitebus/article/details/104474258"
+
+    [social.params]
+        icon = "csdn-index"
