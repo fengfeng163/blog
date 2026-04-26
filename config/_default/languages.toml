@@ -2,11 +2,11 @@
 [en]
     languageName = "English"
     languagedirection = "ltr"
-    title        = "Hugo Theme Stack"
+    title        = "Mark's Hugo Blog"
     weight       = 1
 
     [en.params.sidebar]
-        subtitle = "Card-style Hugo theme designed for bloggers"
+        subtitle = "Mark's HUGO Blog"
 
 [zh]
     languageName = "简体中文"
@@ -30,4 +30,4 @@
     weight       = 4
 
     [ja.params.sidebar]
-        subtitle = "ブログ用のカードスタイルの Hugo テーマ"
+        subtitle = "Mark's Hugo ブログ"
