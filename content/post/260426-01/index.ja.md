@@ -35,7 +35,7 @@ categories:
 ├── .gitignore
 ├── init/
 │   └── 01-init.sql
-├── backup/
+├── backups/
 └── README.md
 ```
 
@@ -193,7 +193,7 @@ CREATE EXTENSION IF NOT EXISTS "pg_stat_statements";
 
 -- 読み取り専用ユーザー作成例
 CREATE USER readonly WITH PASSWORD 'readonly_password';
-GRANT CONNECT ON DATABASE appdb TO readonly;
+GRANT CONNECT ON DATABASE app_db TO readonly;
 GRANT USAGE ON SCHEMA public TO readonly;
 GRANT SELECT ON ALL TABLES IN SCHEMA public TO readonly;
 
